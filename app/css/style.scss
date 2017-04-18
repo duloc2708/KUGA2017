@@ -1,0 +1,119 @@
+@import '~foundation-sites/scss/foundation';
+@include foundation-everything;
+body {
+ padding: 0px;
+}
+.container2 {
+ margin: 0px auto;
+ position: relative;
+ width: 100%;
+}
+
+#header2 {
+ left: 0px;
+ position: fixed;
+ top: 0px;
+ width: 100%;
+ z-index: 1000;
+}
+#header2 .container2 {
+ background: blue;
+
+}
+.Carousel {
+  //background: blue;
+  margin-top: 70px;
+}
+#content2 {
+ //background: green;
+ //height: 200px;
+}
+#content2 .inner {
+ margin-right: 200px;
+}
+
+#sidebar {
+ left: 0px;
+ position: fixed;
+ top: 56px;
+ width: 100%;
+ z-index: 1000;
+ margin: auto;
+}
+#sidebar .inner {
+ background: red;
+ height: 200px;
+ position: absolute;
+ right: 0px;
+ top: 0px;
+ width: 200px;
+}
+.page-wrapper
+{
+
+  width: 100%;
+}
+.top-bar
+{
+  width: 100%;
+}
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.container ul{
+  width: 100%;
+  margin: auto;
+}
+.container li {display:inline; width: 100%;}
+.container li .media-carousel {
+   float: left;
+}
+.container li .media-carousel p{
+  text-align: center;
+}
+.thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+}
+.media-carousel img {
+    width: 220px;
+    height: 100px;
+}
+.post-item-header
+{
+  margin-top:15px;
+  margin-bottom:15px;
+}
+.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+.panel-default {
+    border-color: #ddd;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-body {
+    padding: 15px;
+}
+.tag-list {
+    margin-top: 20px;
+}
+.post-title {
+    margin: 20px 0 0;
+}
+.post-title a {
+    color: #393838;
+}
+.post-item-detail{
+  padding-top: 10px;
+  padding-left: 20px;
+}
